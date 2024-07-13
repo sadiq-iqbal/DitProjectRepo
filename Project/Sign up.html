@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="./styleSheets/Sign up.css" />
+  </head>
+  <body>
+    <form action="/submit_signup" method="post">
+      <div>
+        <b><label for="username">Full Name</label></b>
+        <input
+          placeholder="john Doe"
+          type="text"
+          id="username"
+          name="username"
+          required
+        />
+      </div>
+      <div>
+        <b><label for="email">Email</label></b>
+        <input
+          placeholder="example@gmail.com"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+        <b><label for="Age">Age</label></b>
+        <input placeholder="age" type="number" id="Age" name="Age" required />
+      </div>
+      <div>
+        <b><label for="password">Password</label></b>
+        <input
+          placeholder="Password"
+          type="password"
+          id="password"
+          name="password"
+          required
+        />
+        <b><label for="confirm password">Confirm password</label></b>
+        <input
+          type="text"
+          name="confirm password"
+          id="confirm password"
+          placeholder="***********"
+          required
+        />
+        <b><label for="P/number">Phone number</label></b>
+        <input
+          placeholder="+92-xxx-xxx-xx"
+          type="text"
+          name="p/number"
+          id="p/number"
+          required
+        />
+      </div>
+      <div>
+        <button type="submit">Sign Up</button>
+        <p>Already have account <a href="Login.html">Login</a></p>
+      </div>
+    </form>
+  </body>
+</html>

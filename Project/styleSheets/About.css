@@ -1,0 +1,140 @@
+header {
+  background-color: #8080ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  /* display: flex; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #6969f8;
+}
+nav ul {
+  padding: 30px;
+  background-color: #6969f8;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  /* padding: 0.5em 0; */
+}
+nav li {
+  display: inline;
+  margin: 0 40px;
+  transition: all 0.3s ease;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 1.12rem;
+}
+nav li:hover {
+  transform: scale(1.5);
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 1.3rem;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+.Our-Service {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 3px 3px 10px 6px gray;
+  background-color: #f4f4f4;
+  margin-top: 30px;
+  /* margin-left: 180px; */
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+.Our-Service img {
+  float: left;
+  margin-top: 0%;
+}
+.Our-Service h3 {
+  margin-left: 1rem;
+}
+/* .founders{
+    float: left;
+    background-color: #f4f4f4;
+    width: 1100px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+.founder {
+    text-align: center;
+    float: left;
+    width: 25%;
+    background-color: #f4f4f4;
+    margin-left: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+
+} */
+.footer {
+  background-color: #6969f8;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media a img {
+  width: 24px;
+  height: 24px;
+}
